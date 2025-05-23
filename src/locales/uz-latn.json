@@ -1,0 +1,282 @@
+{
+  "topnav": {
+    "contact": "Aloqa",
+    "instagram": "Instagram",
+    "facebook": "Facebook"
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "tours": "Turlar",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa",
+    "book": "Hoziroq band qiling"
+  },
+  "intro": {
+    "slides": [
+      {
+        "alt": "Yulduzli osmon va tog‘lar",
+        "title": {
+          "part1": "Dunyoni",
+          "part2": "Kashf eting",
+          "part3": "Tour Farm bilan"
+        }
+      },
+      {
+        "alt": "Yulduzlar ostidagi tog‘lar",
+        "title": {
+          "part1": "ADRENALIN",
+          "part2": "Tour Farm bilan"
+        }
+      },
+      {
+        "alt": "Qorong‘i o‘rmon va tog‘lar",
+        "title": {
+          "part1": "EKSKLYUZIV",
+          "part2": "Tour Farm bilan"
+        }
+      }
+    ],
+    "subtitle": "Sarguzasht izlayotganlar uchun."
+  },
+  "photosSection": {
+    "heading": "Sayohatlarimiz suratlarda",
+    "photos": [
+      {
+        "title": "Togʻ sarguzashtlari",
+        "description": "Tajribali yoʻlboshchilar va ilhomlantiruvchi manzaralar bilan choʻqqilarni zabt eting!"
+      },
+      {
+        "title": "Sohil dam olish",
+        "description": "Kristalli tiniq suvli qumli sohilida hordiq chiqaring."
+      },
+      {
+        "title": "Safari turi",
+        "description": "Yovvoyi hayvonlarni ularning tabiiy muhitida tomosha qiling."
+      },
+      {
+        "title": "Ekstremal tur",
+        "description": "Adrenalin va sarguzashtlar: rafting, parashyut sporti va boshqalar!"
+      }
+    ]
+  },
+  "geoSection": {
+    "title": "Dunyodagi joylashuvlarimiz"
+  },
+  "contactSection": {
+    "title": "Telegram orqali biz bilan bog'laning",
+    "name": "Ism",
+    "namePlaceholder": "Ismingizni kiriting",
+    "email": "Email",
+    "emailPlaceholder": "Emailingizni kiriting",
+    "message": "Xabar",
+    "messagePlaceholder": "Xabaringizni kiriting",
+    "submit": "Xabar yuborish",
+    "submitting": "Yuborilmoqda...",
+    "successMessage": "Xabar muvaffaqiyatli yuborildi!",
+    "errorMessage": "Xabar yuborib bo'lmadi. Iltimos, qayta urinib ko'ring.",
+    "newMessage": "Yangi xabar"
+  },
+  "services": {
+    "title": "Xizmatlarimiz",
+    "mountain": {
+      "title": "Tog‘ sarguzashtlari",
+      "description": "Tajribali gidlar bilan ekstremal tog‘ yurishlari va treklar."
+    },
+    "beach": {
+      "title": "Sohil dam olish",
+      "description": "Eng yaxshi sohillarda to‘liq xizmat va suv sportlari bilan dam olish."
+    },
+    "forest": {
+      "title": "O‘rmon ekskursiyalari",
+      "description": "Yovvoyi tabiatda yurish va kuzatuv bilan tabiatga sho‘ng‘ish."
+    },
+    "vip": {
+      "title": "VIP turni",
+      "description": "Shaxsiy gid, lyuks sharoitlar va shaxsiy transport bilan eksklyuziv tur."
+    },
+    "desert": {
+      "title": "Cho‘l sayohati",
+      "description": "Yulduzlar ostida tunab qolish bilan qumtepalarda ekspeditsiya."
+    },
+    "city": {
+      "title": "Shahar ekskursiyalari",
+      "description": "Mahalliy gidlar bilan eng go‘zal shaharlarga tarixiy sayohatlar."
+    },
+    "safari": {
+      "title": "Safari turi",
+      "description": "Yovvoyi hayvonlarni ularning tabiiy yashash joyida tomosha qilish."
+    },
+    "extreme": {
+      "title": "Ekstremal tur",
+      "description": "Rafting, paragliding va boshqa adrenalinli mashg‘ulotlar."
+    }
+  },
+  "prices": {
+    "mountain": "1500$",
+    "beach": "1200$",
+    "forest": "800$",
+    "vip": "3000$",
+    "desert": "2000$",
+    "city": "1000$",
+    "safari": "2500$",
+    "extreme": "1800$"
+  },
+  "descriptions": {
+    "mountain": "Tajribali gidlar bilan tog‘larda ekstremal ko‘tarilish va trekki.",
+    "beach": "Eng yaxshi plyajlarda dam olish va suv sport turlari bilan xizmat.",
+    "forest": "Tabiatga sho‘ng‘ish, sayohatlar va yovvoyi hayvonlarni kuzatish.",
+    "vip": "Shaxsiy gid, hashamatli shartlar va shaxsiy transport bilan eksklyuziv tur.",
+    "desert": "Qumlikdagi ekspeditsiya va yulduzlar ostida tunash.",
+    "city": "Mahalliy gidlar bilan eng go‘zal shaharlarga tarixiy turlar.",
+    "safari": "Yovvoyi hayvonlarni ularning tabiiy muhitida kuzatish bilan ajoyib safari.",
+    "extreme": "Rafting, paraplanning va boshqa adrenalinning faoliyatlari."
+  },
+  "photoTitles": {
+    "mountain": "Toq tog‘lar sarguzashtlari",
+    "beach": "Dengiz qirg‘oq dam olishi",
+    "safari": "Safari-turi",
+    "extreme": "Ekstremal tur"
+  },
+  "photoDescriptions": {
+    "mountain": "Tajribali gidlar bilan cho‘qqilarni zabt eting va ilhomlantiruvchi manzaralarni ko‘ring!",
+    "beach": "To‘zonli qirg‘oqlarda kristalli toza suv bilan dam oling.",
+    "safari": "Yovvoyi hayvonlarni ularning tabiiy muhitida ko‘ring.",
+    "extreme": "Adrenalin va sarguzasht: rafting, paraplanning va boshqalar!"
+  },
+  "newsSection": {
+    "heading": "So'nggi yangiliklar va takliflar",
+    "items": [
+      {
+        "title": "Yozgi cho'l sarguzashtlari sotuvda!",
+        "description": "Yozda 'Cho'l sarguzashtlari' turida 20% chegirma oling. Oltin qumtepalarni o'rganing, tuyada sayr qiling va quyosh botishini mutaxassislar bilan tomosha qiling. Cheklangan joylar mavjud!",
+        "discount": "20% chegirma 30-iyungacha"
+      },
+      {
+        "title": "Yangi 'Okean manzarasi' paketi",
+        "description": "Eng so'nggi tur paketimizni taqdim etamiz: okean manzaralari, delfinlarni kuzatish va quyosh botishi kechki ovqati kruizi. Hoziroq band qiling va unutilmas tajribani boshqaring!",
+        "discount": null
+      },
+      {
+        "title": "Qishki tabiatdan dam olish chegirmasi",
+        "description": "Qishki 'Tabiatdan dam olish' turida maxsus 15% chegirma oling. Sokin o'rmonlar, gid bilan yurishlar va shinam uylardan bahramand bo'ling. Taklif 15-dekabrga qadar amal qiladi!",
+        "discount": "15% chegirma 15-dekabrga qadar"
+      },
+      {
+        "title": "Shahar yorug'liklari turlari yangilandi",
+        "description": "Shahar yorug'liklari tajribangizni VIP-paket bilan yaxshilang, u tomga kirish va o'ziga xos ovqatlanishni o'z ichiga oladi. Faqat cheklangan vaqt uchun mavjud!",
+        "discount": null
+      },
+      {
+        "title": "Tez sotuv: barcha turlarda 10% chegirma",
+        "description": "Shoshiling! Keyingi 48 soat ichida barcha turlarda 10% chegirma oling. Kelasi sarguzashtingizni biz bilan rejalashtirish uchun ajoyib imkoniyat. Imkoniyatni qo'ldan boy bermang!",
+        "discount": "10% chegirma 48 soat davomida"
+      }
+    ],
+    "learnMore": "Ko'proq bilish"
+  },
+  "commentsSection": {
+    "heading": "Mijozlarimiz nima deydi",
+    "items": [
+      {
+        "name": "Jon Dou",
+        "date": "20-may, 2025",
+        "text": "Cho'l sayohati ajoyib edi. Muammosiz tajriba va hayratlanarli manzaralar."
+      },
+      {
+        "name": "Aleks Kim",
+        "date": "15-may, 2025",
+        "text": "Tabiatga qochish juda oson edi. Gidlar ajoyib edi."
+      },
+      {
+        "name": "Liam Braun",
+        "date": "10-may, 2025",
+        "text": "Tog' sayohati mukammal tashkil qilindi. Qattiq tavsiya qilaman."
+      },
+      {
+        "name": "Mariya Silva",
+        "date": "18-may, 2025",
+        "text": "Okean paketi benuqson edi. Har bir detal yaxshi rejalashtirilgan."
+      },
+      {
+        "name": "Sofi Loran",
+        "date": "12-may, 2025",
+        "text": "Shahar chiroqlari sayohati ajoyib edi. Haqiqiy premium tajriba."
+      },
+      {
+        "name": "Emma Devis",
+        "date": "8-may, 2025",
+        "text": "Cho'ldagi sarguzasht hayajonli edi. Quyosh botishi haqiqiy emas edi."
+      },
+      {
+        "name": "Noa Patel",
+        "date": "5-may, 2025",
+        "text": "Okean sayohati ajoyib edi. Kechki ovqat kruizi diqqatga sazovor edi."
+      },
+      {
+        "name": "Oliviya Klark",
+        "date": "2-may, 2025",
+        "text": "Tabiatga qochish tinchlantiruvchi edi. Gidlar yuqori darajada edi."
+      },
+      {
+        "name": "Etan Uilson",
+        "date": "28-aprel, 2025",
+        "text": "Shahar sayohati ajoyib edi. VIP kirish bunga arziydi."
+      },
+      {
+        "name": "Ava Martinez",
+        "date": "25-aprel, 2025",
+        "text": "Cho'l sayohati portlash edi. Manzaralar dunyodan tashqari edi."
+      },
+      {
+        "name": "Jeyms Li",
+        "date": "20-aprel, 2025",
+        "text": "Tog' dam olishi osoyishta edi. Mukammal qochish."
+      },
+      {
+        "name": "Izabella Grin",
+        "date": "15-aprel, 2025",
+        "text": "Okean kruizi sehrli edi. Yana qaytib kelaman!"
+      }
+    ]
+  },
+  "footer": {
+    "navigation": "Navigatsiya",
+    "contact": "Aloqa",
+    "address": "Moskva, Sarguzasht ko‘chasi, 123",
+    "phone": "+7 (123) 456-78-90",
+    "email": "info@tourfarm.com",
+    "social": "Bizni kuzating",
+    "contact_form": "Biz bilan bog‘laning",
+    "contact_form_desc": "Xabar qoldiring, biz javob beramiz!",
+    "name_placeholder": "Ismingiz",
+    "message_placeholder": "Sizning xabaringiz",
+    "send": "Yuborish",
+    "submitting": "Yuborilmoqda...",
+    "send_success": "Xabar yuborildi!",
+    "submit_error": "Yuborishda xatolik. Keyinroq qayta urining.",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "privacy": "Maxfiylik siyosati",
+    "terms": "Foydalanish shartlari"
+  },
+  "faqSection": {
+    "heading": "Tez-tez so'raladigan savollar",
+    "items": [
+      {
+        "question": "Sayohatni qanday bron qilaman?",
+        "answer": "Sayohatni bron qilish uchun galereyadan o'zingiz xohlagan joyni tanlang, 'Hoziroq band qiling' tugmasini bosing va shaxsiy ma'lumotlaringizni kiriting. Tasdiq Telegram orqali keladi."
+      },
+      {
+        "question": "Qanday to'lov usullari qabul qilinadi?",
+        "answer": "Biz kredit/debit kartalarini, bank o'tkazmalarini va PayPal, Stripe kabi mashhur raqamli hamyonlarni qabul qilamiz. To'lov tafsilotlari bron qilish paytida beriladi."
+      },
+      {
+        "question": "Bron qilishni bekor qila olamanmi?",
+        "answer": "Ha, sayohat boshlanishidan 48 soat oldin bekor qilish mumkin. Yordam uchun Telegram orqali biz bilan bog'laning, biz sizning qaytarishingizni qayta ishlaymiz."
+      },
+      {
+        "question": "Sayohatga nima olib borishim kerak?",
+        "answer": "Qulay kiyim-kechak, quyoshdan himoyalovchi krem, shlyapa va kamera oling. Maxsus narsalar turga qarab farq qilishi mumkin — tasdiqni tekshiring."
+      }
+    ]
+  }
+}

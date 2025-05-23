@@ -1,0 +1,283 @@
+{
+  "topnav": {
+    "contact": "Contact",
+    "instagram": "Instagram",
+    "facebook": "Facebook"
+  },
+  "nav": {
+    "home": "Home",
+    "tours": "Tours",
+    "about": "About",
+    "contact": "Contact",
+    "book": "Book Now"
+  },
+  "intro": {
+    "slides": [
+      {
+        "alt": "Starry sky with mountains",
+        "title": {
+          "part1": "Discover",
+          "part2": "the World",
+          "part3": "with Tour Farm"
+        }
+      },
+      {
+        "alt": "Mountains under the stars",
+        "title": {
+          "part1": "ADRENALINE",
+          "part2": "with Tour Farm"
+        }
+      },
+      {
+        "alt": "Dark forest with mountains",
+        "title": {
+          "part1": "EXCLUSIVE",
+          "part2": "with Tour Farm"
+        }
+      }
+    ],
+    "subtitle": "For those who seek adventure."
+  },
+  "photosSection": {
+    "heading": "Our Tours in Photos",
+    "photos": [
+      {
+        "title": "Mountain Adventures",
+        "description": "Conquer the peaks with our expert guides and inspiring views!"
+      },
+      {
+        "title": "Beach Vacation",
+        "description": "Relax on the sandy shore with crystal clear water."
+      },
+      {
+        "title": "Safari Tour",
+        "description": "See wild animals in their natural habitat."
+      },
+      {
+        "title": "Extreme Tour",
+        "description": "Adrenaline and adventure: rafting, paragliding, and more!"
+      }
+    ]
+  },
+  "geoSection": {
+    "title": "Our Locations Worldwide"
+  },
+  "contactSection": {
+    "title": "Contact Us via Telegram",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "message": "Message",
+    "messagePlaceholder": "Enter your message",
+    "submit": "Send Message",
+    "submitting": "Sending...",
+    "successMessage": "Message sent successfully!",
+    "errorMessage": "Failed to send message. Please try again.",
+    "newMessage": "New Message"
+  },
+  "faqSection": {
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How do I book a tour?",
+        "answer": "To book a tour, select your desired destination from the gallery, click 'Book Now,' and fill out the form with your details. You’ll receive a confirmation via Telegram."
+      },
+      {
+        "question": "What payment methods are accepted?",
+        "answer": "We accept credit/debit cards, bank transfers, and popular digital wallets like PayPal and Stripe. Payment details will be provided during booking."
+      },
+      {
+        "question": "Can I cancel my reservation?",
+        "answer": "Yes, cancellations are possible up to 48 hours before the tour starts. Contact us via Telegram for assistance, and we’ll process your refund."
+      },
+      {
+        "question": "What should I bring on the tour?",
+        "answer": "Bring comfortable clothing, sunscreen, a hat, and a camera. Specific items may vary by tour—check your confirmation for details."
+      }
+    ]
+  },
+  "newsSection": {
+    "heading": "Latest News & Offers",
+    "items": [
+      {
+        "title": "Summer Desert Adventure Sale!",
+        "description": "Enjoy a 20% discount on our Desert Adventure tour this summer. Explore golden dunes, camel rides, and stunning sunsets with our expert guides. Limited spots available!",
+        "discount": "20% off until June 30th"
+      },
+      {
+        "title": "New Ocean View Package",
+        "description": "Introducing our latest tour package featuring breathtaking ocean views, dolphin watching, and a sunset dinner cruise. Book now for an unforgettable experience!",
+        "discount": null
+      },
+      {
+        "title": "Winter Nature Escape Discount",
+        "description": "Take advantage of a special 15% discount on our Winter Nature Escape tour. Enjoy serene forests, guided hikes, and cozy cabins. Offer ends December 15th!",
+        "discount": "15% off until Dec 15th"
+      },
+      {
+        "title": "City Lights Night Tour Upgrade",
+        "description": "Upgrade your City Lights experience with a VIP package including exclusive rooftop access and gourmet dining. Available for a limited time only!",
+        "discount": null
+      },
+      {
+        "title": "Flash Sale: All Tours 10% Off",
+        "description": "Hurry! Get 10% off all tours for the next 48 hours. Perfect opportunity to plan your next adventure with us. Don’t miss out!",
+        "discount": "10% off for 48 hours"
+      }
+    ],
+    "learnMore": "Learn More"
+  },
+  "commentsSection": {
+    "heading": "What Our Clients Say",
+    "items": [
+      {
+        "name": "John Doe",
+        "date": "May 20, 2025",
+        "text": "The desert tour was incredible. A seamless experience with breathtaking views."
+      },
+      {
+        "name": "Alex Kim",
+        "date": "May 15, 2025",
+        "text": "Nature escape felt effortless. The guides were exceptional."
+      },
+      {
+        "name": "Liam Brown",
+        "date": "May 10, 2025",
+        "text": "Mountain tour was perfectly executed. Highly recommend."
+      },
+      {
+        "name": "Maria Silva",
+        "date": "May 18, 2025",
+        "text": "Ocean package was flawless. Every detail was thoughtfully planned."
+      },
+      {
+        "name": "Sophie Laurent",
+        "date": "May 12, 2025",
+        "text": "City Lights tour was stunning. A truly premium experience."
+      },
+      {
+        "name": "Emma Davis",
+        "date": "May 8, 2025",
+        "text": "Desert adventure was thrilling. Sunsets were unreal."
+      },
+      {
+        "name": "Noah Patel",
+        "date": "May 5, 2025",
+        "text": "Ocean tour was amazing. Dinner cruise was a highlight."
+      },
+      {
+        "name": "Olivia Clark",
+        "date": "May 2, 2025",
+        "text": "Nature escape was relaxing. Guides were top-notch."
+      },
+      {
+        "name": "Ethan Wilson",
+        "date": "April 28, 2025",
+        "text": "City tour was fantastic. VIP access was worth it."
+      },
+      {
+        "name": "Ava Martinez",
+        "date": "April 25, 2025",
+        "text": "Desert tour was a blast. Views were out of this world."
+      },
+      {
+        "name": "James Lee",
+        "date": "April 20, 2025",
+        "text": "Mountain retreat was serene. A perfect getaway."
+      },
+      {
+        "name": "Isabella Green",
+        "date": "April 15, 2025",
+        "text": "Ocean cruise was magical. I’ll be back for more!"
+      }
+    ]
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "contact": "Contact Us",
+    "address": "123 Adventure St, Moscow, Russia",
+    "phone": "+7 (123) 456-78-90",
+    "email": "info@tourfarm.com",
+    "social": "Follow Us",
+    "contact_form": "Contact Us",
+    "contact_form_desc": "Leave a message, and we’ll get back to you!",
+    "name_placeholder": "Your name",
+    "message_placeholder": "Your message",
+    "send": "Send",
+    "submitting": "Submitting...",
+    "send_success": "Message sent!",
+    "submit_error": "Submission error. Please try again later.",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  },
+  
+  "services": {
+    "title": "Our Services",
+    "mountain": {
+      "title": "Mountain Adventures",
+      "description": "Extreme hiking and trekking in the mountains with experienced guides."
+    },
+    "beach": {
+      "title": "Beach Vacation",
+      "description": "Relax on the best beaches with full service and water sports."
+    },
+    "forest": {
+      "title": "Forest Tours",
+      "description": "Immersion in nature with hiking and wildlife watching."
+    },
+    "vip": {
+      "title": "VIP Tour",
+      "description": "Exclusive tour with a personal guide, luxury conditions, and private transport."
+    },
+    "desert": {
+      "title": "Desert Journey",
+      "description": "Expedition through sand dunes with overnight under the stars."
+    },
+    "city": {
+      "title": "City Tours",
+      "description": "Historical tours in the most beautiful cities with local guides."
+    },
+    "safari": {
+      "title": "Safari Tour",
+      "description": "Unforgettable safari watching wild animals in their habitat."
+    },
+    "extreme": {
+      "title": "Extreme Tour",
+      "description": "Rafting, paragliding, and other adrenaline activities."
+    }
+  },
+  "prices": {
+    "mountain": "1500$",
+    "beach": "1200$",
+    "forest": "800$",
+    "vip": "3000$",
+    "desert": "2000$",
+    "city": "1000$",
+    "safari": "2500$",
+    "extreme": "1800$"
+  },
+  "descriptions": {
+    "mountain": "Extreme ascents and trekking in the mountains with experienced guides.",
+    "beach": "Relax on the best beaches with full service and water sports.",
+    "forest": "Immersion in nature with hikes and wildlife observation.",
+    "vip": "Exclusive tour with a personal guide, luxury conditions, and private transport.",
+    "desert": "Expedition across sandy dunes with overnight stays under the stars.",
+    "city": "Historical tours of the most beautiful cities with local guides.",
+    "safari": "Unforgettable safari with wildlife observation in their natural habitat.",
+    "extreme": "Rafting, paragliding, and other adrenaline-pumping activities."
+  },
+  "photoTitles": {
+    "mountain": "Mountain Adventures",
+    "beach": "Beach Relaxation",
+    "safari": "Safari Tour",
+    "extreme": "Extreme Tour"
+  },
+  "photoDescriptions": {
+    "mountain": "Conquer the peaks with our experienced guides and inspiring views!",
+    "beach": "Relax on sandy shores with crystal-clear water.",
+    "safari": "See wild animals in their natural habitat.",
+    "extreme": "Adrenaline and adventure: rafting, paragliding, and more!"
+  }
+}
