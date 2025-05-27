@@ -1,23 +1,35 @@
 import React, { useRef } from 'react';
-import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 
 const imageUrls = [
-  'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80',
-  'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80',
-  'https://img2.akspic.ru/crops/6/6/1/0/7/170166/170166-dubaj-pustynya-safari-makaron-dubajskaya_pustynya-3840x2160.jpg',
-  'https://img3.akspic.ru/previews/4/3/9/4/7/174934/174934-priroda-prirodnyj_landshaft-peyzash-voda-oblako-x750.jpg',
-  'https://i.pinimg.com/originals/0c/64/b1/0c64b1f365c1791ff95c1d6d55fdb5ae.jpg',
-  'https://cdn.wallpapersafari.com/45/18/oQlj41.jpg',
-  'https://wallpapercave.com/wp/wp4761821.jpg',
-  'https://images.unsplash.com/photo-1558980394-0cfb6bd1f929?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80',
-  'https://images.unsplash.com/photo-1610878180933-66b76aee7e3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80',
-  'https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'
+   'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80', // Мальдивы
+  'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80', // Норвегия
+  'https://images.wallpaperscraft.ru/image/single/dubai_dubaj_zdanie_28363_1280x1024.jpg', // Япония
+  'https://wallpapercat.com/w/full/2/8/1/624998-3840x2160-desktop-4k-iceland-background.jpg', // Альпы
+  'https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260', // Париж
+  'https://images.unsplash.com/photo-1508264165352-258db2ebd59b?auto=format&fit=crop&w=1920&q=80', // Марокко
+  'https://st.depositphotos.com/1020288/2043/i/450/depositphotos_20437641-stock-photo-view-of-bogliasco.jpg', // Индонезия
+  'https://img.goodfon.ru/wallpaper/big/e/68/egypt-egipet-piramida-peyzazh.webp', // Горы в США
+  'https://wp-s.ru/wallpapers/10/19/494474508359494/udivitelnyj-pejzazh-v-grecii.jpg', // Дубай
+  'https://99px.ru/sstorage/53/2014/11/tmb_115192_8929.jpg', // Бали
+  'https://images.pexels.com/photos/672358/pexels-photo-672358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'  // Нью-Йорк
+];
+
+const photos = [
+  { title: 'Бали', description: 'Пляжи, пальмы и закаты.' },
+  { title: 'Швейцария', description: 'Горы и чистый воздух.' },
+  { title: 'Дубай', description: 'Пустыня и сафари.' },
+  { title: 'Норвегия', description: 'Фьорды и северное сияние.' },
+  { title: 'Япония', description: 'Цветущая сакура.' },
+  { title: 'Италия', description: 'История и пицца.' },
+  { title: 'Греция', description: 'Острова и античность.' },
+  { title: 'Египет', description: 'Пирамиды и Нил.' },  
+  { title: 'Канада', description: 'Озёра и леса.' },
+  { title: 'Кения', description: 'Сафари и львы.' },
+  { title: 'Бразилия', description: 'Карнавал и пляжи.' },
 ];
 
 const Photos = () => {
-  const { t } = useTranslation();
-  const photos = t('photosSection.photos', { returnObjects: true });
   const scrollRef = useRef(null);
 
   const scroll = (direction) => {
@@ -28,13 +40,12 @@ const Photos = () => {
   };
 
   return (
-    <section id="photos" className="relative py-24 bg-gradient-to-b from-gray-950 via-gray-900 to-black overflow-hidden">
+    <section className="relative py-24 bg-gradient-to-b from-gray-950 via-gray-900 to-black overflow-hidden">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-4xl md:text-6xl font-bold text-white font-montserrat text-center mb-20">
-          {t('photosSection.heading')}
+          Наши туры
         </h2>
 
-        {/* Gallery Scroll */}
         <div className="relative overflow-x-auto">
           <div
             ref={scrollRef}
@@ -73,7 +84,6 @@ const Photos = () => {
             ))}
           </div>
 
-          {/* Arrow Buttons */}
           <div className="absolute right-8 bottom-4 flex gap-4">
             <button
               onClick={() => scroll('left')}
@@ -95,4 +105,3 @@ const Photos = () => {
 };
 
 export default Photos;
-  
