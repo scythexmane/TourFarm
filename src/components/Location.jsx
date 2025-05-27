@@ -14,7 +14,6 @@ const cities = [
   'Los Angeles',
 ];
 
-// Карта изображений городов
 const cityImages = {
   'New York': 'https://plus.unsplash.com/premium_photo-1680430094846-f2003bf654ec?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   'London': 'https://plus.unsplash.com/premium_photo-1694475482575-fcf2e5e64655?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -30,7 +29,8 @@ const cityImages = {
 
 const GeoLocationSection = () => {
   const { t } = useTranslation();
-  const [hoveredCity, setHoveredCity] = useState(null);
+  const [hoveredCity, setHoveredCity] = useState('Los Angeles');
+  const [visibleCity, setVisibleCity] = useState('Los Angeles');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -52,26 +52,36 @@ const GeoLocationSection = () => {
   };
 
   const handleMouseEnter = (city) => {
-    setHoveredCity(city);
+    if (city !== hoveredCity) {
+      setHoveredCity(city);
+      // Задержка для плавного перехода
+      setTimeout(() => {
+        setVisibleCity(city);
+      }, 100); // задержка в 100ms
+    }
   };
 
   return (
-    <section id="location" className="relative py-24 bg-gradient-to-b from-black via-gray-900 to-black overflow-hidden geo-section">
+    <section
+      id="location"
+      className="relative py-24 bg-gradient-to-b from-black via-gray-900 to-black overflow-hidden geo-section"
+    >
       <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white font-montserrat text-center mb-16 animate-fade-in">
         {t('geoSection.title')}
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row gap-10">
         {/* Область изображения */}
-        <div className="lg:w-2/3 w-full h-[500px] rounded-xl overflow-hidden shadow-2xl border border-gray-800 transition-all duration-300">
-          {hoveredCity ? (
+        <div className="lg:w-2/3 w-full h-[500px] rounded-xl overflow-hidden shadow-2xl border border-gray-800 relative">
+          {Object.keys(cityImages).map((city) => (
             <img
-              src={cityImages[hoveredCity]}
-              alt={`${hoveredCity} изображение`}
-              className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+              key={city}
+              src={cityImages[city]}
+              alt={`${city} изображение`}
+              className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-700 ${
+                visibleCity === city ? 'opacity-100 z-10' : 'opacity-0 z-0'
+              }`}
             />
-          ) : (
-            <div className="w-full h-full bg-gray-800 animate-pulse" />
-          )}
+          ))}
         </div>
 
         {/* Список городов */}

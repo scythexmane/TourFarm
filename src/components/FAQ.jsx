@@ -18,7 +18,7 @@ const FAQSection = () => {
           <div
             className="space-y-6"
             style={{
-              minHeight: `${faqs.length * 70 + 300}px`, // Примерная высота: 100px на каждый FAQ + 300px для заголовка и отступов
+              minHeight: `${faqs.length * 70 + 300}px`,
             }}
           >
             {faqs.map((faq, index) => (
@@ -37,34 +37,6 @@ const FAQSection = () => {
 
 const FAQItem = ({ question, answer, index }) => {
   const [isOpen, setIsOpen] = useState(false);
-
-  const answerVariants = {
-    hidden: {
-      opacity: 0,
-      height: 0,
-      x: 20,
-    },
-    visible: {
-      opacity: 1,
-      height: 'auto',
-      x: 0,
-      transition: {
-        opacity: { duration: 0.5 },
-        height: { duration: 0.5 },
-        x: { duration: 0.5, ease: 'easeOut' },
-      },
-    },
-    exit: {
-      opacity: 0,
-      height: 0,
-      x: -20,
-      transition: {
-        opacity: { duration: 0.3 },
-        height: { duration: 0.3 },
-        x: { duration: 0.3, ease: 'easeIn' },
-      },
-    },
-  };
 
   return (
     <motion.div
@@ -93,16 +65,25 @@ const FAQItem = ({ question, answer, index }) => {
           ↓
         </motion.span>
       </motion.button>
-      <AnimatePresence>
+
+      <AnimatePresence initial={false}>
         {isOpen && (
           <motion.div
-            variants={answerVariants}
-            initial="hidden"
-            animate="visible"
-            exit="exit"
-            className="px-6 py-4 text-gray-300 text-base sm:text-lg font-inter leading-relaxed"
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.5, ease: 'easeInOut' }}
+            style={{ overflow: 'hidden' }}
           >
-            {answer}
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 10 }}
+              transition={{ duration: 0.4, delay: 0.1 }}
+              className="px-6 py-4 text-gray-300 text-base sm:text-lg font-inter leading-relaxed"
+            >
+              {answer}
+            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
