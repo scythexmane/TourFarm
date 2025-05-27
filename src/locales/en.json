@@ -214,38 +214,38 @@
   },
   
   "services": {
-    "title": "Our Services",
+    "title": "Our Tours",
     "mountain": {
-      "title": "Mountain Adventures",
-      "description": "Extreme hiking and trekking in the mountains with experienced guides."
+      "title": "Mountain Tour",
+      "description": "Enjoy the beauty of the mountains, fresh air, and breathtaking views."
     },
     "beach": {
-      "title": "Beach Vacation",
-      "description": "Relax on the best beaches with full service and water sports."
+      "title": "Beach Tour",
+      "description": "Relax on sandy beaches and dive into turquoise waters."
     },
     "forest": {
-      "title": "Forest Tours",
-      "description": "Immersion in nature with hiking and wildlife watching."
+      "title": "Forest Tour",
+      "description": "Explore wild forests and feel the harmony with nature."
     },
     "vip": {
       "title": "VIP Tour",
-      "description": "Exclusive tour with a personal guide, luxury conditions, and private transport."
+      "description": "Luxury, comfort, and unforgettable service — just for you."
     },
     "desert": {
-      "title": "Desert Journey",
-      "description": "Expedition through sand dunes with overnight under the stars."
+      "title": "Desert Tour",
+      "description": "Immerse yourself in the mysterious world of deserts."
     },
     "city": {
-      "title": "City Tours",
-      "description": "Historical tours in the most beautiful cities with local guides."
+      "title": "City Tour",
+      "description": "Explore modern cities with our experienced guides."
     },
     "safari": {
       "title": "Safari Tour",
-      "description": "Unforgettable safari watching wild animals in their habitat."
+      "description": "See wild animals in their natural habitat."
     },
     "extreme": {
       "title": "Extreme Tour",
-      "description": "Rafting, paragliding, and other adrenaline activities."
+      "description": "Feel the adrenaline and unforgettable emotions in the wild."
     }
   },
   "prices": {

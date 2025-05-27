@@ -1,19 +1,21 @@
 @import "tailwindcss";
 
-html, body {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Inter", sans-serif;
+html,
+body {
+  font-family: "Montserrat", "Inter", sans-serif;
+
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   height: 100%;
-  width: 100%;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 #root {
-  min-height: 100vh; 
-  background-color: #111827; 
+  height: 100%;
+  overflow-x: hidden;
+
+  background-color: #111827;
   display: flex;
   flex-direction: column;
 }

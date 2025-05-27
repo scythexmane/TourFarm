@@ -58,22 +58,6 @@
     "newMessage": "Новое сообщение"
   },
   "footer": {
-    "navigation": "Navigation",
-    "contact": "Contact Us",
-    "address": "123 Adventure St, Moscow, Russia",
-    "phone": "+7 (123) 456-78-90",
-    "email": "info@tourfarm.com",
-    "social": "Follow Us",
-    "newsletter": "Subscribe to Newsletter",
-    "newsletter_desc": "Get the latest offers and tour updates!",
-    "email_placeholder": "Enter your email",
-    "subscribe": "Subscribe",
-    "subscribe_success": "Thank you for subscribing!",
-    "rights": "All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Use"
-  },
-  "footer": {
     "navigation": "Навигация",
     "contact": "Контакты",
     "address": "г. Москва, ул. Приключений, 123",
@@ -145,39 +129,38 @@
     "learnMore": "Узнать больше"
   },
   "services": {
-    "title": "Наши услуги",
+    "title": "Наши туры",
     "mountain": {
-      "title": "Горные приключения",
-      "description": "Экстремальные восхождения и треккинг в горах с опытными гидами."
+      "title": "Горный тур",
+      "description": "Насладитесь красотой гор, свежим воздухом и захватывающими видами."
     },
     "beach": {
-      "title": "Пляжный отдых",
-      "description": "Релакс на лучших пляжах с полным сервисом и водными видами спорта."
+      "title": "Пляжный тур",
+      "description": "Расслабьтесь на песчаных пляжах и окунитесь в лазурные воды."
     },
     "forest": {
-      "title": "Экскурсии в лес",
-      "description": "Погружение в природу с походами и наблюдением за дикими животными."
+      "title": "Лесной тур",
+      "description": "Откройте для себя дикие леса и почувствуйте гармонию с природой."
     },
-
     "vip": {
-      "title": "VIP-тур",
-      "description": "Эксклюзивный тур с личным гидом, люкс-условиями и частным транспортом."
+      "title": "VIP тур",
+      "description": "Роскошь, комфорт и незабываемый сервис — только для вас."
     },
     "desert": {
-      "title": "Путешествие в пустыню",
-      "description": "Экспедиция по песчаным дюнам с ночёвкой под звёздами."
+      "title": "Пустынный тур",
+      "description": "Погрузитесь в таинственный мир пустынь и их красоты."
     },
     "city": {
-      "title": "Городские экскурсии",
-      "description": "Исторические туры по самым красивым городам с местными гидами."
+      "title": "Городской тур",
+      "description": "Изучите современные мегаполисы с нашими опытными гидами."
     },
     "safari": {
-      "title": "Сафари-тур",
-      "description": "Незабываемое сафари с наблюдением за дикими животными в их среде."
+      "title": "Сафари тур",
+      "description": "Увидьте диких животных в их естественной среде обитания."
     },
     "extreme": {
       "title": "Экстремальный тур",
-      "description": "Рафтинг, парапланеризм и другие адреналиновые активности."
+      "description": "Испытайте адреналин и незабываемые эмоции в дикой природе."
     }
   },
   "photosSection": {

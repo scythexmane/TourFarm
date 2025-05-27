@@ -77,38 +77,38 @@
     "newMessage": "Yangi xabar"
   },
   "services": {
-    "title": "Xizmatlarimiz",
+    "title": "Bizning sayohatlar",
     "mountain": {
-      "title": "Tog‘ sarguzashtlari",
-      "description": "Tajribali gidlar bilan ekstremal tog‘ yurishlari va treklar."
+      "title": "Tog'li sayohat",
+      "description": "Tog'lar go‘zalligi, toza havo va hayratlanarli manzaralardan bahramand bo‘ling."
     },
     "beach": {
-      "title": "Sohil dam olish",
-      "description": "Eng yaxshi sohillarda to‘liq xizmat va suv sportlari bilan dam olish."
+      "title": "Sohil sayohati",
+      "description": "Qumli sohillarda dam oling va moviy suvlarga sho‘ng‘ing."
     },
     "forest": {
-      "title": "O‘rmon ekskursiyalari",
-      "description": "Yovvoyi tabiatda yurish va kuzatuv bilan tabiatga sho‘ng‘ish."
+      "title": "O‘rmon sayohati",
+      "description": "Yovvoyi o‘rmonlarni o‘rganing va tabiat bilan uyg‘unlikni his qiling."
     },
     "vip": {
-      "title": "VIP turni",
-      "description": "Shaxsiy gid, lyuks sharoitlar va shaxsiy transport bilan eksklyuziv tur."
+      "title": "VIP sayohat",
+      "description": "Hashamat, qulaylik va unutilmas xizmat — aynan siz uchun."
     },
     "desert": {
-      "title": "Cho‘l sayohati",
-      "description": "Yulduzlar ostida tunab qolish bilan qumtepalarda ekspeditsiya."
+      "title": "Chorvadorlar sayohati",
+      "description": "Sahrolarning sirli olamiga sho‘ng‘ing."
     },
     "city": {
-      "title": "Shahar ekskursiyalari",
-      "description": "Mahalliy gidlar bilan eng go‘zal shaharlarga tarixiy sayohatlar."
+      "title": "Shahar sayohati",
+      "description": "Tajribali yo‘l ko‘rsatuvchilar bilan zamonaviy shaharlarni o‘rganing."
     },
     "safari": {
-      "title": "Safari turi",
-      "description": "Yovvoyi hayvonlarni ularning tabiiy yashash joyida tomosha qilish."
+      "title": "Safari sayohati",
+      "description": "Yovvoyi hayvonlarni tabiiy muhitida ko‘ring."
     },
     "extreme": {
-      "title": "Ekstremal tur",
-      "description": "Rafting, paragliding va boshqa adrenalinli mashg‘ulotlar."
+      "title": "Ekstremal sayohat",
+      "description": "Yovvoyi tabiatda adrenalin va unutilmas his-tuyg‘ularni his eting."
     }
   },
   "prices": {
