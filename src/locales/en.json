@@ -9,7 +9,8 @@
     "tours": "Tours",
     "about": "About",
     "contact": "Contact",
-    "book": "Book Now"
+    "book": "Book Now",
+    "selectTour": "Select Tour"
   },
   "intro": {
     "slides": [

@@ -62,7 +62,7 @@ const Footer = () => {
             <div className="space-y-4">
               <h3 className="text-xl sm:text-2xl font-bold text-white font-montserrat">{t('footer.navigation')}</h3>
               <ul className="space-y-2">
-                {['home', 'tours', 'photos', 'about', 'contact'].map((section, index) => (
+                {['home', 'tours', 'about', 'contact'].map((section, index) => (
                   <li key={index}>
                     <a
                       href={`#${section}`}

@@ -9,7 +9,9 @@
     "tours": "Turlar",
     "about": "Biz haqimizda",
     "contact": "Aloqa",
-    "book": "Hoziroq band qiling"
+    "book": "Hoziroq band qiling",
+    "selectTour": "Turni tanlang"
+
   },
   "intro": {
     "slides": [
